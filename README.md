@@ -1,8 +1,8 @@
-# dinocorelabs
+# METALGEARSOLODEMMA
 
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-[![GitHub Issues](https://img.shields.io/github/issues/starsvalintinebsaa55-creator/dinocorelabs)](https://github.com/starsvalintinebsaa55-creator/dinocorelabs/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/starsvalintinebsaa55-creator/dinocorelabs)](https://github.com/starsvalintinebsaa55-creator/dinocorelabs/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/starsvalintinebsaa55-creator/METALGEARSOLODEMMA)](https://github.com/starsvalintinebsaa55-creator/METALGEARSOLODEMMA/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/starsvalintinebsaa55-creator/METALGEARSOLODEMMA)](https://github.com/starsvalintinebsaa55-creator/METALGEARSOLODEMMA/stargazers)
 
 Open source code terminal tools for robust and reliable development workflows.
 
@@ -21,7 +21,7 @@ Open source code terminal tools for robust and reliable development workflows.
 
 ## Overview
 
-**dinocorelabs** is an open source terminal tools project designed to provide powerful utilities and workflows for developers. This repository provides robust command-line interfaces and development tools for modern development practices.
+**METALGEARSOLODEMMA** is an open source terminal tools project designed to provide powerful utilities and workflows for developers. This repository provides robust command-line interfaces and development tools for modern development practices.
 
 **Repository Details:**
 - **License:** Mozilla Public License 2.0
@@ -51,8 +51,8 @@ Before getting started, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/starsvalintinebsaa55-creator/dinocorelabs.git
-cd dinocorelabs
+git clone https://github.com/starsvalintinebsaa55-creator/METALGEARSOLODEMMA.git
+cd METALGEARSOLODEMMA
 ```
 
 ### 2. Install Dependencies
@@ -82,7 +82,7 @@ npm link
 
 ```bash
 # Check if the CLI is accessible
-dinocorelabs --version
+metalgear --version
 
 # Or check the setup
 npm run verify
@@ -107,13 +107,13 @@ npm test
 
 ```bash
 # Display help
-dinocorelabs --help
+metalgear --help
 
 # Run a command
-dinocorelabs init
+metalgear init
 
 # Use with options
-dinocorelabs build --output dist
+metalgear build --output dist
 ```
 
 ### Development Workflow
@@ -138,12 +138,12 @@ git push origin feature/your-feature-name
 ## Project Structure
 
 ```
-dinocorelabs/
+METALGEARSOLODEMMA/
 ├── README.md              # This file
 ├── package.json           # Project dependencies and CLI entry point
 ├── .gitignore             # Git ignore rules
 ├── bin/                   # CLI executable scripts
-│   └── dinocorelabs.js   # Main CLI entry point
+│   └── metalgear.js      # Main CLI entry point
 ├── src/                   # Source code directory
 │   ├── commands/         # CLI command implementations
 │   ├── utils/            # Utility functions
@@ -160,35 +160,35 @@ dinocorelabs/
 
 ```bash
 # Initialize a new project
-dinocorelabs init
+metalgear init
 
 # Build your project
-dinocorelabs build
+metalgear build
 
 # Run development server
-dinocorelabs dev
+metalgear dev
 
 # Run tests
-dinocorelabs test
+metalgear test
 
 # Generate documentation
-dinocorelabs docs:generate
+metalgear docs:generate
 ```
 
 ### As a Node.js Module
 
 ```javascript
 // Import the module
-const dinocorelabs = require('dinocorelabs');
+const metalgear = require('metalgear');
 
 // Use it in your project
-dinocorelabs.init({
+metalgear.init({
   projectName: 'my-app',
   template: 'default'
 });
 
 // Or use specific commands
-const { build } = require('dinocorelabs/commands');
+const { build } = require('metalgear/commands');
 build({ output: 'dist' });
 ```
 
@@ -214,12 +214,12 @@ Create a `.env` file in the root directory:
 NODE_ENV=development
 DEBUG=false
 LOG_LEVEL=info
-DINOCORE_HOME=~/.dinocorelabs
+METALGEAR_HOME=~/.metalgear
 ```
 
 ### Configuration File
 
-Edit `~/.dinocorelabs/config.json` to customize behavior:
+Edit `~/.metalgear/config.json` to customize behavior:
 
 ```json
 {
@@ -227,13 +227,13 @@ Edit `~/.dinocorelabs/config.json` to customize behavior:
   "retries": 3,
   "logLevel": "info",
   "cache": true,
-  "cacheDir": "~/.dinocorelabs/cache"
+  "cacheDir": "~/.metalgear/cache"
 }
 ```
 
 ### Project Config
 
-Create a `.dinocorelabs.json` in your project root:
+Create a `.metalgear.json` in your project root:
 
 ```json
 {
@@ -258,11 +258,11 @@ We welcome contributions! Here's how to get started:
 ```bash
 # Fork the repository on GitHub
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/dinocorelabs.git
-cd dinocorelabs
+git clone https://github.com/YOUR_USERNAME/METALGEARSOLODEMMA.git
+cd METALGEARSOLODEMMA
 
 # Add upstream remote
-git remote add upstream https://github.com/starsvalintinebsaa55-creator/dinocorelabs.git
+git remote add upstream https://github.com/starsvalintinebsaa55-creator/METALGEARSOLODEMMA.git
 
 # Create a feature branch
 git checkout -b feature/amazing-feature
@@ -352,7 +352,7 @@ npm publish
 npm install -g .
 
 # Or use npx to run it
-npx dinocorelabs --help
+npx metalgear --help
 ```
 
 **Issue: Dependencies not installing**
@@ -370,7 +370,7 @@ npm install
 **Issue: Permission denied on bin files**
 ```bash
 # Make bin files executable
-chmod +x bin/dinocorelabs.js
+chmod +x bin/metalgear.js
 
 # Or reinstall globally
 npm install -g .
@@ -395,7 +395,7 @@ For more detailed documentation, visit:
 
 ## Reporting Issues
 
-Found a bug? Have a feature request? [Open an issue](https://github.com/starsvalintinebsaa55-creator/dinocorelabs/issues) with:
+Found a bug? Have a feature request? [Open an issue](https://github.com/starsvalintinebsaa55-creator/METALGEARSOLODEMMA/issues) with:
 
 1. **Title:** Clear, concise description
 2. **Description:** What happened and what you expected
@@ -423,8 +423,8 @@ With the condition that:
 ### Getting Help
 
 - **Documentation:** Check the `/docs` folder
-- **Issues:** [GitHub Issues](https://github.com/starsvalintinebsaa55-creator/dinocorelabs/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/starsvalintinebsaa55-creator/dinocorelabs/discussions)
+- **Issues:** [GitHub Issues](https://github.com/starsvalintinebsaa55-creator/METALGEARSOLODEMMA/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/starsvalintinebsaa55-creator/METALGEARSOLODEMMA/discussions)
 - **Email:** Contact the maintainers via GitHub
 
 ### Community
@@ -461,8 +461,8 @@ Features planned for future releases:
 
 **Last Updated:** May 2026
 
-**Repository:** [starsvalintinebsaa55-creator/dinocorelabs](https://github.com/starsvalintinebsaa55-creator/dinocorelabs)
+**Repository:** [starsvalintinebsaa55-creator/METALGEARSOLODEMMA](https://github.com/starsvalintinebsaa55-creator/METALGEARSOLODEMMA)
 
-For questions or suggestions, please [open an issue](https://github.com/starsvalintinebsaa55-creator/dinocorelabs/issues) or reach out to the maintainers.
+For questions or suggestions, please [open an issue](https://github.com/starsvalintinebsaa55-creator/METALGEARSOLODEMMA/issues) or reach out to the maintainers.
 
-**Start contributing to dinocorelabs today! 🦕🚀**
+**Start contributing to METALGEARSOLODEMMA today! 🎮🚀**
